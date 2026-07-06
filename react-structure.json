@@ -1,0 +1,1752 @@
+{
+  "App": {
+    "imports": [
+      "Navbar",
+      "Home",
+      "TherapeuticTitre",
+      "Therapeutic",
+      "Evaluation",
+      "Innovation",
+      "GlobalPresence",
+      "PartnerCTA",
+      "Footer",
+      "Copyright",
+      "App.css"
+    ],
+    "usedComponents": [
+      "Navbar",
+      "Home",
+      "TherapeuticTitre",
+      "Therapeutic",
+      "Evaluation",
+      "Innovation",
+      "GlobalPresence",
+      "PartnerCTA",
+      "Footer",
+      "Copyright"
+    ],
+    "children": {
+      "Navbar": {
+        "imports": [
+          "logo.png",
+          "Navbar.css"
+        ],
+        "usedComponents": [
+          "nav",
+          "FiSearch",
+          "FiX",
+          "FiMenu"
+        ],
+        "children": {
+          "logo.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "Navbar.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "nav": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiSearch": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiX": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiMenu": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Home": {
+        "imports": [
+          "SimpleCounter",
+          "Quality",
+          "Home.css",
+          "avatar1.png",
+          "avatar2.png",
+          "avatar3.png",
+          "avatar4.png",
+          "avatar5.png"
+        ],
+        "usedComponents": [
+          "FiArrowRight",
+          "FiPlayCircle",
+          "SimpleCounter",
+          "strong",
+          "FiShield",
+          "FiCpu",
+          "FiGlobe",
+          "FiTarget",
+          "h4",
+          "Quality"
+        ],
+        "children": {
+          "SimpleCounter": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "Quality": {
+            "imports": [
+              "Quality.css"
+            ],
+            "usedComponents": [
+              "FiAward",
+              "FiShield",
+              "FiClock",
+              "FiSettings",
+              "FiUsers",
+              "h4"
+            ],
+            "children": {
+              "Quality.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiAward": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiShield": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiClock": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiSettings": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiUsers": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Home.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "avatar1.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "avatar2.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "avatar3.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "avatar4.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "avatar5.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiArrowRight": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiPlayCircle": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "strong": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiShield": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiCpu": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiGlobe": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiTarget": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "TherapeuticTitre": {
+        "imports": [
+          "TherapeuticTitre.css"
+        ],
+        "usedComponents": [
+          "FiArrowRight"
+        ],
+        "children": {
+          "TherapeuticTitre.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiArrowRight": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Therapeutic": {
+        "imports": [
+          "Therapeutic.css",
+          "coeur.png",
+          "virus.png",
+          "cerveau.png",
+          "suivi.png",
+          "fois.png",
+          "bacterie.png"
+        ],
+        "usedComponents": [
+          "h4",
+          "FiArrowRight"
+        ],
+        "children": {
+          "Therapeutic.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "coeur.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "virus.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "cerveau.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "suivi.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "fois.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "bacterie.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiArrowRight": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Evaluation": {
+        "imports": [
+          "SimpleCounter",
+          "Evaluation.css"
+        ],
+        "usedComponents": [
+          "FiAward",
+          "SimpleCounter",
+          "FiUsers",
+          "FiClock",
+          "FiCheckCircle",
+          "FiGlobe",
+          "h4"
+        ],
+        "children": {
+          "SimpleCounter": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "Evaluation.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiAward": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiUsers": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiClock": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiCheckCircle": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiGlobe": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Innovation": {
+        "imports": [
+          "Innovation.css",
+          "innovation.png"
+        ],
+        "usedComponents": [
+          "h4",
+          "br",
+          "FiCheck",
+          "FiArrowRight"
+        ],
+        "children": {
+          "Innovation.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "innovation.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "br": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiCheck": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiArrowRight": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "GlobalPresence": {
+        "imports": [
+          "GlobalPresence.css",
+          "localisation-image.png"
+        ],
+        "usedComponents": [
+          "FiMapPin",
+          "FiTruck",
+          "FiGlobe",
+          "h4"
+        ],
+        "children": {
+          "GlobalPresence.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "localisation-image.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiMapPin": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiTruck": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiGlobe": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "PartnerCTA": {
+        "imports": [
+          "PartnerCTA.css"
+        ],
+        "usedComponents": [
+          "br",
+          "FiArrowRight"
+        ],
+        "children": {
+          "PartnerCTA.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "br": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiArrowRight": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Footer": {
+        "imports": [
+          "Footer.css",
+          "logo.png"
+        ],
+        "usedComponents": [
+          "br",
+          "FiLinkedin",
+          "FiTwitter",
+          "FiFacebook",
+          "FiYoutube",
+          "h4",
+          "FiMapPin",
+          "FiPhone",
+          "FiMail"
+        ],
+        "children": {
+          "Footer.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "logo.png": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "br": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiLinkedin": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiTwitter": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiFacebook": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiYoutube": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiMapPin": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiPhone": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiMail": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Copyright": {
+        "imports": [
+          "Copyright.css"
+        ],
+        "usedComponents": [],
+        "children": {
+          "Copyright.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "App.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Copyright": {
+    "imports": [
+      "Copyright.css"
+    ],
+    "usedComponents": [],
+    "children": {
+      "Copyright.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Evaluation": {
+    "imports": [
+      "SimpleCounter",
+      "Evaluation.css"
+    ],
+    "usedComponents": [
+      "FiAward",
+      "SimpleCounter",
+      "FiUsers",
+      "FiClock",
+      "FiCheckCircle",
+      "FiGlobe",
+      "h4"
+    ],
+    "children": {
+      "SimpleCounter": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "Evaluation.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiAward": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiUsers": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiClock": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiCheckCircle": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiGlobe": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Footer": {
+    "imports": [
+      "Footer.css",
+      "logo.png"
+    ],
+    "usedComponents": [
+      "br",
+      "FiLinkedin",
+      "FiTwitter",
+      "FiFacebook",
+      "FiYoutube",
+      "h4",
+      "FiMapPin",
+      "FiPhone",
+      "FiMail"
+    ],
+    "children": {
+      "Footer.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "logo.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "br": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiLinkedin": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiTwitter": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiFacebook": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiYoutube": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiMapPin": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiPhone": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiMail": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "GlobalPresence": {
+    "imports": [
+      "GlobalPresence.css",
+      "localisation-image.png"
+    ],
+    "usedComponents": [
+      "FiMapPin",
+      "FiTruck",
+      "FiGlobe",
+      "h4"
+    ],
+    "children": {
+      "GlobalPresence.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "localisation-image.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiMapPin": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiTruck": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiGlobe": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Home": {
+    "imports": [
+      "SimpleCounter",
+      "Quality",
+      "Home.css",
+      "avatar1.png",
+      "avatar2.png",
+      "avatar3.png",
+      "avatar4.png",
+      "avatar5.png"
+    ],
+    "usedComponents": [
+      "FiArrowRight",
+      "FiPlayCircle",
+      "SimpleCounter",
+      "strong",
+      "FiShield",
+      "FiCpu",
+      "FiGlobe",
+      "FiTarget",
+      "h4",
+      "Quality"
+    ],
+    "children": {
+      "SimpleCounter": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "Quality": {
+        "imports": [
+          "Quality.css"
+        ],
+        "usedComponents": [
+          "FiAward",
+          "FiShield",
+          "FiClock",
+          "FiSettings",
+          "FiUsers",
+          "h4"
+        ],
+        "children": {
+          "Quality.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiAward": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiShield": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiClock": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiSettings": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "FiUsers": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          },
+          "h4": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "Home.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "avatar1.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "avatar2.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "avatar3.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "avatar4.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "avatar5.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiArrowRight": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiPlayCircle": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "strong": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiShield": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiCpu": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiGlobe": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiTarget": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Innovation": {
+    "imports": [
+      "Innovation.css",
+      "innovation.png"
+    ],
+    "usedComponents": [
+      "h4",
+      "br",
+      "FiCheck",
+      "FiArrowRight"
+    ],
+    "children": {
+      "Innovation.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "innovation.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "br": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiCheck": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiArrowRight": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Navbar": {
+    "imports": [
+      "logo.png",
+      "Navbar.css"
+    ],
+    "usedComponents": [
+      "nav",
+      "FiSearch",
+      "FiX",
+      "FiMenu"
+    ],
+    "children": {
+      "logo.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "Navbar.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "nav": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiSearch": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiX": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiMenu": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "PartnerCTA": {
+    "imports": [
+      "PartnerCTA.css"
+    ],
+    "usedComponents": [
+      "br",
+      "FiArrowRight"
+    ],
+    "children": {
+      "PartnerCTA.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "br": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiArrowRight": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "Quality": {
+    "imports": [
+      "Quality.css"
+    ],
+    "usedComponents": [
+      "FiAward",
+      "FiShield",
+      "FiClock",
+      "FiSettings",
+      "FiUsers",
+      "h4"
+    ],
+    "children": {
+      "Quality.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiAward": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiShield": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiClock": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiSettings": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiUsers": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "SimpleCounter": {
+    "imports": [],
+    "usedComponents": [],
+    "children": {}
+  },
+  "Therapeutic": {
+    "imports": [
+      "Therapeutic.css",
+      "coeur.png",
+      "virus.png",
+      "cerveau.png",
+      "suivi.png",
+      "fois.png",
+      "bacterie.png"
+    ],
+    "usedComponents": [
+      "h4",
+      "FiArrowRight"
+    ],
+    "children": {
+      "Therapeutic.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "coeur.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "virus.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "cerveau.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "suivi.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "fois.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "bacterie.png": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "h4": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiArrowRight": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "TherapeuticTitre": {
+    "imports": [
+      "TherapeuticTitre.css"
+    ],
+    "usedComponents": [
+      "FiArrowRight"
+    ],
+    "children": {
+      "TherapeuticTitre.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "FiArrowRight": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  },
+  "main": {
+    "imports": [
+      "index.css",
+      "App"
+    ],
+    "usedComponents": [
+      "StrictMode",
+      "App"
+    ],
+    "children": {
+      "index.css": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      },
+      "App": {
+        "imports": [
+          "Navbar",
+          "Home",
+          "TherapeuticTitre",
+          "Therapeutic",
+          "Evaluation",
+          "Innovation",
+          "GlobalPresence",
+          "PartnerCTA",
+          "Footer",
+          "Copyright",
+          "App.css"
+        ],
+        "usedComponents": [
+          "Navbar",
+          "Home",
+          "TherapeuticTitre",
+          "Therapeutic",
+          "Evaluation",
+          "Innovation",
+          "GlobalPresence",
+          "PartnerCTA",
+          "Footer",
+          "Copyright"
+        ],
+        "children": {
+          "Navbar": {
+            "imports": [
+              "logo.png",
+              "Navbar.css"
+            ],
+            "usedComponents": [
+              "nav",
+              "FiSearch",
+              "FiX",
+              "FiMenu"
+            ],
+            "children": {
+              "logo.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "Navbar.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "nav": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiSearch": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiX": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiMenu": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Home": {
+            "imports": [
+              "SimpleCounter",
+              "Quality",
+              "Home.css",
+              "avatar1.png",
+              "avatar2.png",
+              "avatar3.png",
+              "avatar4.png",
+              "avatar5.png"
+            ],
+            "usedComponents": [
+              "FiArrowRight",
+              "FiPlayCircle",
+              "SimpleCounter",
+              "strong",
+              "FiShield",
+              "FiCpu",
+              "FiGlobe",
+              "FiTarget",
+              "h4",
+              "Quality"
+            ],
+            "children": {
+              "SimpleCounter": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "Quality": {
+                "imports": [
+                  "Quality.css"
+                ],
+                "usedComponents": [
+                  "FiAward",
+                  "FiShield",
+                  "FiClock",
+                  "FiSettings",
+                  "FiUsers",
+                  "h4"
+                ],
+                "children": {
+                  "Quality.css": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  },
+                  "FiAward": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  },
+                  "FiShield": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  },
+                  "FiClock": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  },
+                  "FiSettings": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  },
+                  "FiUsers": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  },
+                  "h4": {
+                    "imports": [],
+                    "usedComponents": [],
+                    "children": {}
+                  }
+                }
+              },
+              "Home.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "avatar1.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "avatar2.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "avatar3.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "avatar4.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "avatar5.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiArrowRight": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiPlayCircle": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "strong": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiShield": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiCpu": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiGlobe": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiTarget": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "TherapeuticTitre": {
+            "imports": [
+              "TherapeuticTitre.css"
+            ],
+            "usedComponents": [
+              "FiArrowRight"
+            ],
+            "children": {
+              "TherapeuticTitre.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiArrowRight": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Therapeutic": {
+            "imports": [
+              "Therapeutic.css",
+              "coeur.png",
+              "virus.png",
+              "cerveau.png",
+              "suivi.png",
+              "fois.png",
+              "bacterie.png"
+            ],
+            "usedComponents": [
+              "h4",
+              "FiArrowRight"
+            ],
+            "children": {
+              "Therapeutic.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "coeur.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "virus.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "cerveau.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "suivi.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "fois.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "bacterie.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiArrowRight": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Evaluation": {
+            "imports": [
+              "SimpleCounter",
+              "Evaluation.css"
+            ],
+            "usedComponents": [
+              "FiAward",
+              "SimpleCounter",
+              "FiUsers",
+              "FiClock",
+              "FiCheckCircle",
+              "FiGlobe",
+              "h4"
+            ],
+            "children": {
+              "SimpleCounter": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "Evaluation.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiAward": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiUsers": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiClock": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiCheckCircle": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiGlobe": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Innovation": {
+            "imports": [
+              "Innovation.css",
+              "innovation.png"
+            ],
+            "usedComponents": [
+              "h4",
+              "br",
+              "FiCheck",
+              "FiArrowRight"
+            ],
+            "children": {
+              "Innovation.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "innovation.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "br": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiCheck": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiArrowRight": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "GlobalPresence": {
+            "imports": [
+              "GlobalPresence.css",
+              "localisation-image.png"
+            ],
+            "usedComponents": [
+              "FiMapPin",
+              "FiTruck",
+              "FiGlobe",
+              "h4"
+            ],
+            "children": {
+              "GlobalPresence.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "localisation-image.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiMapPin": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiTruck": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiGlobe": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "PartnerCTA": {
+            "imports": [
+              "PartnerCTA.css"
+            ],
+            "usedComponents": [
+              "br",
+              "FiArrowRight"
+            ],
+            "children": {
+              "PartnerCTA.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "br": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiArrowRight": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Footer": {
+            "imports": [
+              "Footer.css",
+              "logo.png"
+            ],
+            "usedComponents": [
+              "br",
+              "FiLinkedin",
+              "FiTwitter",
+              "FiFacebook",
+              "FiYoutube",
+              "h4",
+              "FiMapPin",
+              "FiPhone",
+              "FiMail"
+            ],
+            "children": {
+              "Footer.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "logo.png": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "br": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiLinkedin": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiTwitter": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiFacebook": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiYoutube": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "h4": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiMapPin": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiPhone": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              },
+              "FiMail": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "Copyright": {
+            "imports": [
+              "Copyright.css"
+            ],
+            "usedComponents": [],
+            "children": {
+              "Copyright.css": {
+                "imports": [],
+                "usedComponents": [],
+                "children": {}
+              }
+            }
+          },
+          "App.css": {
+            "imports": [],
+            "usedComponents": [],
+            "children": {}
+          }
+        }
+      },
+      "StrictMode": {
+        "imports": [],
+        "usedComponents": [],
+        "children": {}
+      }
+    }
+  }
+}

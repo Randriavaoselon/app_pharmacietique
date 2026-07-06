@@ -1,0 +1,1065 @@
+{
+  "App": {
+    "type": "Fragment",
+    "children": [
+      {
+        "type": "Navbar",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "Home",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "TherapeuticTitre",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "Therapeutic",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "Evaluation",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "Innovation",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "GlobalPresence",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "PartnerCTA",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "Footer",
+        "children": [],
+        "style": {},
+        "className": ""
+      },
+      {
+        "type": "Copyright",
+        "children": [],
+        "style": {},
+        "className": ""
+      }
+    ],
+    "style": {},
+    "className": ""
+  },
+  "Copyright": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "p",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": "copyright__left"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "span",
+                    "children": [],
+                    "style": {},
+                    "className": "separator"
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": "copyright__right"
+              }
+            ],
+            "style": {},
+            "className": "copyright__row"
+          }
+        ],
+        "style": {},
+        "className": "container"
+      }
+    ],
+    "style": {},
+    "className": "copyright"
+  },
+  "Evaluation": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [],
+            "style": {},
+            "className": "row evaluation-row"
+          }
+        ],
+        "style": {},
+        "className": "evaluation-container-bg"
+      }
+    ],
+    "style": {},
+    "className": "evaluation-section"
+  },
+  "Footer": {
+    "type": "footer",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [
+                      {
+                        "type": "img",
+                        "children": [],
+                        "style": {},
+                        "className": "footer__logo"
+                      }
+                    ],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "br",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "footer__desc"
+                  },
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "FiLinkedin",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      },
+                      {
+                        "type": "FiTwitter",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      },
+                      {
+                        "type": "FiFacebook",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      },
+                      {
+                        "type": "FiYoutube",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "footer__socials"
+                  }
+                ],
+                "style": {},
+                "className": "footer__col"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": "footer__col"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": "footer__col"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": "footer__col"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "FiMapPin",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "p_address"
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "FiPhone",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "p_contact"
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "FiMail",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "p_email"
+                  }
+                ],
+                "style": {},
+                "className": "footer__col"
+              }
+            ],
+            "style": {},
+            "className": "footer__row"
+          }
+        ],
+        "style": {},
+        "className": "container"
+      }
+    ],
+    "style": {},
+    "className": "footer"
+  },
+  "GlobalPresence": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h3",
+                    "children": [],
+                    "style": {},
+                    "className": "global-presence__title"
+                  },
+                  {
+                    "type": "p",
+                    "children": [],
+                    "style": {},
+                    "className": "global-presence__description"
+                  },
+                  {
+                    "type": "div",
+                    "children": [],
+                    "style": {},
+                    "className": "location-cards"
+                  }
+                ],
+                "style": {},
+                "className": "global-presence__content"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "img",
+                    "children": [],
+                    "style": {},
+                    "className": "global-presence__image"
+                  }
+                ],
+                "style": {},
+                "className": "global-presence__visual"
+              }
+            ],
+            "style": {},
+            "className": "global-presence__wrapper"
+          }
+        ],
+        "style": {},
+        "className": "container"
+      }
+    ],
+    "style": {},
+    "className": "global-presence"
+  },
+  "Home": {
+    "type": "Fragment",
+    "children": [
+      {
+        "type": "section",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "h1",
+                        "children": [
+                          {
+                            "type": "span",
+                            "children": [],
+                            "style": {},
+                            "className": "highlight"
+                          }
+                        ],
+                        "style": {},
+                        "className": "fade-in-element delay-1"
+                      },
+                      {
+                        "type": "p",
+                        "children": [],
+                        "style": {},
+                        "className": "p fade-in-element delay-2"
+                      },
+                      {
+                        "type": "div",
+                        "children": [
+                          {
+                            "type": "button",
+                            "children": [
+                              {
+                                "type": "FiArrowRight",
+                                "children": [],
+                                "style": {
+                                  "marginLeft": "8px"
+                                },
+                                "className": ""
+                              }
+                            ],
+                            "style": {},
+                            "className": "btn-primary"
+                          },
+                          {
+                            "type": "button",
+                            "children": [
+                              {
+                                "type": "FiPlayCircle",
+                                "children": [],
+                                "style": {
+                                  "marginRight": "8px"
+                                },
+                                "className": ""
+                              }
+                            ],
+                            "style": {},
+                            "className": "btn-secondary"
+                          }
+                        ],
+                        "style": {
+                          "marginBottom": "30px"
+                        },
+                        "className": "btn-group fade-in-element delay-3"
+                      },
+                      {
+                        "type": "div",
+                        "children": [
+                          {
+                            "type": "div",
+                            "children": [],
+                            "style": {},
+                            "className": "col-cards"
+                          },
+                          {
+                            "type": "div",
+                            "children": [
+                              {
+                                "type": "h2",
+                                "children": [
+                                  {
+                                    "type": "SimpleCounter",
+                                    "children": [],
+                                    "style": {},
+                                    "className": ""
+                                  }
+                                ],
+                                "style": {},
+                                "className": ""
+                              },
+                              {
+                                "type": "p",
+                                "children": [
+                                  {
+                                    "type": "strong",
+                                    "children": [],
+                                    "style": {},
+                                    "className": ""
+                                  }
+                                ],
+                                "style": {},
+                                "className": "stats-label"
+                              },
+                              {
+                                "type": "p",
+                                "children": [],
+                                "style": {},
+                                "className": ""
+                              }
+                            ],
+                            "style": {},
+                            "className": "col-stats"
+                          }
+                        ],
+                        "style": {
+                          "marginTop": "10px"
+                        },
+                        "className": "row features-row"
+                      }
+                    ],
+                    "style": {},
+                    "className": "col-left"
+                  },
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "div",
+                        "children": [],
+                        "style": {},
+                        "className": "feature-main-card"
+                      }
+                    ],
+                    "style": {},
+                    "className": "col-right"
+                  }
+                ],
+                "style": {},
+                "className": "row main-hero"
+              }
+            ],
+            "style": {},
+            "className": "container"
+          }
+        ],
+        "style": {},
+        "className": "home-section"
+      },
+      {
+        "type": "Quality",
+        "children": [],
+        "style": {},
+        "className": ""
+      }
+    ],
+    "style": {},
+    "className": ""
+  },
+  "Innovation": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "img",
+                    "children": [],
+                    "style": {},
+                    "className": "innovation-img"
+                  }
+                ],
+                "style": {},
+                "className": "col-left"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "h4",
+                        "children": [
+                          {
+                            "type": "br",
+                            "children": [],
+                            "style": {},
+                            "className": ""
+                          },
+                          {
+                            "type": "span",
+                            "children": [],
+                            "style": {},
+                            "className": "text-highlight"
+                          }
+                        ],
+                        "style": {},
+                        "className": "title-innovation"
+                      },
+                      {
+                        "type": "p",
+                        "children": [],
+                        "style": {},
+                        "className": "main-desc"
+                      },
+                      {
+                        "type": "div",
+                        "children": [],
+                        "style": {},
+                        "className": "innovation-features"
+                      },
+                      {
+                        "type": "button",
+                        "children": [
+                          {
+                            "type": "FiArrowRight",
+                            "children": [],
+                            "style": {},
+                            "className": "btn-arrow"
+                          }
+                        ],
+                        "style": {},
+                        "className": "btn-learn-more"
+                      }
+                    ],
+                    "style": {},
+                    "className": "content-header"
+                  }
+                ],
+                "style": {},
+                "className": "col-right-innovation"
+              }
+            ],
+            "style": {},
+            "className": "innovation-row"
+          }
+        ],
+        "style": {},
+        "className": "container"
+      }
+    ],
+    "style": {},
+    "className": "innovation-section"
+  },
+  "Navbar": {
+    "type": "nav",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "a",
+            "children": [
+              {
+                "type": "img",
+                "children": [],
+                "style": {},
+                "className": ""
+              }
+            ],
+            "style": {},
+            "className": "nav-logo"
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": "nav-link home-link"
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": "nav-link about-link"
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": ""
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "button",
+                    "children": [],
+                    "style": {},
+                    "className": "partner-btn"
+                  }
+                ],
+                "style": {},
+                "className": "mobile-only-btn"
+              }
+            ],
+            "style": {},
+            "className": ""
+          },
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "button",
+                "children": [
+                  {
+                    "type": "FiSearch",
+                    "children": [],
+                    "style": {},
+                    "className": ""
+                  }
+                ],
+                "style": {},
+                "className": "icon-btn"
+              },
+              {
+                "type": "button",
+                "children": [],
+                "style": {},
+                "className": "partner-btn desktop-only-btn"
+              },
+              {
+                "type": "div",
+                "children": [],
+                "style": {},
+                "className": "hamburger"
+              }
+            ],
+            "style": {},
+            "className": "nav-actions"
+          }
+        ],
+        "style": {},
+        "className": "nav-container"
+      }
+    ],
+    "style": {},
+    "className": ""
+  },
+  "PartnerCTA": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h2",
+                    "children": [],
+                    "style": {},
+                    "className": "partner-cta__title"
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "br",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "partner-cta__description"
+                  }
+                ],
+                "style": {},
+                "className": "partner-cta__content"
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "button",
+                    "children": [
+                      {
+                        "type": "FiArrowRight",
+                        "children": [],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "partner-cta__button"
+                  }
+                ],
+                "style": {},
+                "className": "partner-cta__action"
+              }
+            ],
+            "style": {},
+            "className": "partner-cta__row"
+          }
+        ],
+        "style": {},
+        "className": "partner-cta__container"
+      }
+    ],
+    "style": {},
+    "className": "partner-cta"
+  },
+  "Quality": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [],
+            "style": {},
+            "className": "row quality-row"
+          }
+        ],
+        "style": {},
+        "className": "container"
+      }
+    ],
+    "style": {},
+    "className": "quality-section"
+  },
+  "SimpleCounter": {
+    "type": "span",
+    "children": [],
+    "style": {},
+    "className": ""
+  },
+  "Therapeutic": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [],
+            "style": {},
+            "className": "row therapeutic-grid"
+          }
+        ],
+        "style": {},
+        "className": "container"
+      }
+    ],
+    "style": {},
+    "className": "therapeutic-section"
+  },
+  "TherapeuticTitre": {
+    "type": "Fragment",
+    "children": [
+      {
+        "type": "section",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "h3",
+                        "children": [
+                          {
+                            "type": "span",
+                            "children": [],
+                            "style": {},
+                            "className": "highlight-line"
+                          }
+                        ],
+                        "style": {},
+                        "className": ""
+                      }
+                    ],
+                    "style": {},
+                    "className": "col-left"
+                  },
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "a",
+                        "children": [
+                          {
+                            "type": "FiArrowRight",
+                            "children": [],
+                            "style": {},
+                            "className": ""
+                          }
+                        ],
+                        "style": {},
+                        "className": "view-all-link"
+                      }
+                    ],
+                    "style": {},
+                    "className": "col-right-therapeuticTitre"
+                  }
+                ],
+                "style": {},
+                "className": "row therapeutic-row"
+              }
+            ],
+            "style": {},
+            "className": "container"
+          }
+        ],
+        "style": {},
+        "className": "therapeutic-section"
+      }
+    ],
+    "style": {},
+    "className": ""
+  },
+  "main": null
+}

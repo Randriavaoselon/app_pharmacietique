@@ -1,0 +1,135 @@
+.global-presence {
+  width: 100%;
+  padding: 0px 8%;
+  box-sizing: border-box;
+}
+
+.global-presence__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.global-presence__content {
+  flex: 1;
+}
+
+.global-presence__title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #0c1430;
+}
+
+.global-presence__description {
+  color: #717479;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.location-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.location-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.location-card__icon {
+  color: #06a890;
+  font-size: 1.5rem;
+}
+
+.location-card__title {
+  font-size: 0.95rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #1f243b;
+}
+
+.location-card__subtitle {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0;
+  color: #1f243b;
+}
+
+.global-presence__visual {
+  flex: 1;
+}
+
+.global-presence__image {
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+/* Animation */
+.global-presence__content, 
+.global-presence__visual {
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.global-presence__content { transform: translateX(-50px); } 
+.global-presence__visual { transform: scale(0.9); }      
+
+.global-presence.is-visible .global-presence__content,
+.global-presence.is-visible .global-presence__visual {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+.global-presence.is-visible .location-card {
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.global-presence.is-visible .location-card:nth-child(1) { animation-delay: 0.5s; }
+.global-presence.is-visible .location-card:nth-child(2) { animation-delay: 0.7s; }
+.global-presence.is-visible .location-card:nth-child(3) { animation-delay: 0.9s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media (max-width: 992px) {
+
+  .global-presence__wrapper {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .global-presence__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .global-presence__description {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .location-cards {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 25px;
+  }
+}

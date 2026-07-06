@@ -1,0 +1,65 @@
+.therapeutic-section {
+  margin-bottom: -80px;
+    padding: 80px 8% 40px 8%;
+  }
+  
+  .therapeutic-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;           
+    width: 100%;
+  }
+  
+  .therapeutic-row h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+  }
+  
+  .col-right-therapeuticTitre {
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+  .highlight-line {
+    border-bottom: 3px solid #5ba691;
+    padding-bottom: 2px;
+  }
+  
+  .view-all-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4f5666;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-right: 0; 
+  }
+  
+  .view-all-link:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 768px) {
+    .therapeutic-row {
+      flex-direction: column;
+      align-items: flex-start; 
+      gap: 15px;
+    }
+  
+    .therapeutic-row h3 {
+      font-size: 1.6rem; 
+    }
+  
+    .col-right {
+      width: 100%;
+      justify-content: flex-start;
+    }
+  
+    .view-all-link {
+      font-size: 1rem;
+      color: #5ba691;
+    }
+  }

@@ -1,0 +1,732 @@
+{
+  "App": {
+    "type": "Fragment",
+    "children": [
+      {
+        "type": "Navbar",
+        "children": []
+      },
+      {
+        "type": "Home",
+        "children": []
+      },
+      {
+        "type": "TherapeuticTitre",
+        "children": []
+      },
+      {
+        "type": "Therapeutic",
+        "children": []
+      },
+      {
+        "type": "Evaluation",
+        "children": []
+      },
+      {
+        "type": "Innovation",
+        "children": []
+      },
+      {
+        "type": "GlobalPresence",
+        "children": []
+      },
+      {
+        "type": "PartnerCTA",
+        "children": []
+      },
+      {
+        "type": "Footer",
+        "children": []
+      },
+      {
+        "type": "Copyright",
+        "children": []
+      }
+    ]
+  },
+  "Copyright": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "span",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Evaluation": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "Footer": {
+    "type": "footer",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": [
+                      {
+                        "type": "img",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "br",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "FiLinkedin",
+                        "children": []
+                      },
+                      {
+                        "type": "FiTwitter",
+                        "children": []
+                      },
+                      {
+                        "type": "FiFacebook",
+                        "children": []
+                      },
+                      {
+                        "type": "FiYoutube",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  },
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h4",
+                    "children": []
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "FiMapPin",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "FiPhone",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "FiMail",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "GlobalPresence": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h3",
+                    "children": []
+                  },
+                  {
+                    "type": "p",
+                    "children": []
+                  },
+                  {
+                    "type": "div",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "img",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Home": {
+    "type": "Fragment",
+    "children": [
+      {
+        "type": "section",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "h1",
+                        "children": [
+                          {
+                            "type": "span",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "p",
+                        "children": []
+                      },
+                      {
+                        "type": "div",
+                        "children": [
+                          {
+                            "type": "button",
+                            "children": [
+                              {
+                                "type": "FiArrowRight",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "button",
+                            "children": [
+                              {
+                                "type": "FiPlayCircle",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "div",
+                        "children": [
+                          {
+                            "type": "div",
+                            "children": []
+                          },
+                          {
+                            "type": "div",
+                            "children": [
+                              {
+                                "type": "h2",
+                                "children": [
+                                  {
+                                    "type": "SimpleCounter",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "p",
+                                "children": [
+                                  {
+                                    "type": "strong",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "p",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "div",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Quality",
+        "children": []
+      }
+    ]
+  },
+  "Innovation": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "img",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "h4",
+                        "children": [
+                          {
+                            "type": "br",
+                            "children": []
+                          },
+                          {
+                            "type": "span",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "p",
+                        "children": []
+                      },
+                      {
+                        "type": "div",
+                        "children": []
+                      },
+                      {
+                        "type": "button",
+                        "children": [
+                          {
+                            "type": "FiArrowRight",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Navbar": {
+    "type": "nav",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "a",
+            "children": [
+              {
+                "type": "img",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "a",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "button",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "button",
+                "children": [
+                  {
+                    "type": "FiSearch",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "button",
+                "children": []
+              },
+              {
+                "type": "div",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "PartnerCTA": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "h2",
+                    "children": []
+                  },
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "type": "br",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "button",
+                    "children": [
+                      {
+                        "type": "FiArrowRight",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Quality": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "SimpleCounter": {
+    "type": "span",
+    "children": []
+  },
+  "Therapeutic": {
+    "type": "section",
+    "children": [
+      {
+        "type": "div",
+        "children": [
+          {
+            "type": "div",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "TherapeuticTitre": {
+    "type": "Fragment",
+    "children": [
+      {
+        "type": "section",
+        "children": [
+          {
+            "type": "div",
+            "children": [
+              {
+                "type": "div",
+                "children": [
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "h3",
+                        "children": [
+                          {
+                            "type": "span",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "div",
+                    "children": [
+                      {
+                        "type": "a",
+                        "children": [
+                          {
+                            "type": "FiArrowRight",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

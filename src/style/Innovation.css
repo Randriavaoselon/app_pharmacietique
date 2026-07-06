@@ -1,0 +1,150 @@
+.innovation-section {
+  padding: 25px 8%;
+}
+
+.innovation-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.col-left {
+  flex: 1;
+}
+
+.col-right-innovation {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 380px;
+}
+
+.innovation-img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+.content-header h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+
+.text-highlight {
+  color: #06a890;
+}
+
+.main-desc {
+  color: #717479;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Liste des fonctionnalités */
+.innovation-features {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-circle {
+  width: 24px;
+  height: 24px;
+  background-color: #1b8d82;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.feature-item p {
+  color: #29304c;
+  font-weight: 500;
+  margin: 0;
+}
+
+.btn-learn-more {
+  margin-top: 15px;
+  padding: 12px 28px;
+  
+  background-color: #ffffff; 
+  border: 2px solid #06a890;
+  color: #06a890;
+  
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.btn-learn-more:hover {
+  background-color: #06a890;
+  color: #ffffff;
+}
+
+.btn-arrow {
+  color: #06a890;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.btn-learn-more:hover .btn-arrow {
+  color: #ffffff;
+}
+
+/* Animation */
+.innovation-img, .col-right-innovation {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.innovation-img { transform: translateX(-50px); } 
+.col-right-innovation { transform: translateX(50px); } 
+
+.innovation-section.is-visible .innovation-img,
+.innovation-section.is-visible .col-right-innovation {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.innovation-section.is-visible .feature-item {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.innovation-section.is-visible .feature-item:nth-child(1) { animation-delay: 0.4s; }
+.innovation-section.is-visible .feature-item:nth-child(2) { animation-delay: 0.6s; }
+.innovation-section.is-visible .feature-item:nth-child(3) { animation-delay: 0.8s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .innovation-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
