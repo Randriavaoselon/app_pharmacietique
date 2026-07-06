@@ -58,6 +58,7 @@ h1 {
   display: flex;
   gap: 20px;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .btn-primary {
@@ -69,6 +70,7 @@ h1 {
   cursor: pointer;
   font-weight: 600;
   font-size: 0.95rem;
+  justify-content: center;
   display: flex;
   align-items: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -86,6 +88,7 @@ h1 {
   border: 2px solid #20b387;
   padding: 12px 28px;
   border-radius: 10px;
+  justify-content: center;
   cursor: pointer;
   font-weight: 600;
   font-size: 0.95rem;
@@ -233,7 +236,7 @@ h1 {
   animation-delay: 0.8s;
 }
 
-/* --- Responsive Mobile --- */
+/* --- Tablette --- */
 @media (max-width: 992px) {
   .home-section {
     height: auto;
@@ -259,8 +262,18 @@ h1 {
     margin-right: auto;
   }
 
+  .btn-group {
+    justify-content: center;
+  }
+
   .features-row {
     justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .col-stats {
+    align-items: center;
   }
 
   .col-right {
@@ -278,9 +291,83 @@ h1 {
 
   .sub-card {
     border-bottom: none;
-
     flex-direction: column;
     text-align: center;
     gap: 10px;
+  }
+}
+
+/* --- Smartphone --- */
+@media (max-width: 576px) {
+  .home-section {
+    padding: 80px 5% 40px 5%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .col-left .p {
+    font-size: 1rem;
+    max-width: 100%;
+    padding: 0 5px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 20px;
+  }
+
+  .features-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .col-cards {
+    justify-content: center;
+  }
+
+  .col-stats {
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-main-card {
+    grid-template-columns: 1fr; /* une seule colonne sur petit mobile */
+    padding: 15px;
+  }
+
+  .icon-box {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .text-box h4 {
+    font-size: 1rem;
+  }
+}
+
+/* Très petit écran (ex : 320px) */
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .col-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    margin-left: -10px;
   }
 }
