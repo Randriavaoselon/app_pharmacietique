@@ -8,7 +8,7 @@ import {
   FiMail,
 } from "react-icons/fi";
 import "../style/Footer.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 
 const Footer = () => {
   return (

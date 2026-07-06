@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { FaTimes, FaLock, FaUser, FaEnvelope } from "react-icons/fa";
 import "../style/LoginSidebar.css";
 
@@ -11,16 +12,36 @@ const LoginSidebar = ({ isOpen, onClose }) => {
     return () => window.removeEventListener("keydown", handleEsc);
   }, [onClose]);
 
-  return (
+  useEffect(() => {
+    if (isOpen) {
+      const scrollY = window.scrollY;
+      document.body.style.position = "fixed";
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = "100%";
+      return () => {
+        document.body.style.position = "";
+        document.body.style.top = "";
+        document.body.style.width = "";
+        window.scrollTo(0, scrollY);
+      };
+    }
+  }, [isOpen]);
+
+  return createPortal(
     <>
       <div
         className={`sidebar-overlay ${isOpen ? "active" : ""}`}
         onClick={onClose}
       />
-      <div className={`login-sidebar ${isOpen ? "open" : ""}`}>
+      <div
+        className={`login-sidebar ${isOpen ? "open" : ""}`}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="login-sidebar-title"
+      >
         <div className="sidebar-header">
-          <h3>Connexion Admin</h3>
-          <button className="close-btn" onClick={onClose}>
+          <h3 id="login-sidebar-title">Connexion Admin</h3>
+          <button className="close-btn" onClick={onClose} aria-label="Fermer">
             <FaTimes />
           </button>
         </div>
@@ -42,7 +63,8 @@ const LoginSidebar = ({ isOpen, onClose }) => {
           </button>
         </form>
       </div>
-    </>
+    </>,
+    document.body
   );
 };
 

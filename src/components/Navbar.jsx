@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 import "../style/Navbar.css";
 
 import { FiSearch, FiMenu, FiX } from "react-icons/fi";

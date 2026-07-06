@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { FiCheck, FiArrowRight } from "react-icons/fi";
 import "../style/Innovation.css";
-import innovationImg from "../assets/innovation.png";
+import innovationImg from "../assets/innovation.webp";
 
 const Innovation = () => {
   const sectionRef = useRef(null);

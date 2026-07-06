@@ -2,12 +2,12 @@ import { useEffect, useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import "../style/Therapeutic.css";
 
-import img1 from "../assets/coeur.png";
-import img2 from "../assets/virus.png";
-import img3 from "../assets/cerveau.png";
-import img4 from "../assets/suivi.png";
-import img5 from "../assets/fois.png";
-import img6 from "../assets/bacterie.png";
+import img1 from "../assets/coeur.webp";
+import img2 from "../assets/virus.webp";
+import img3 from "../assets/cerveau.webp";
+import img4 from "../assets/suivi.webp";
+import img5 from "../assets/fois.webp";
+import img6 from "../assets/bacterie.webp";
 
 const Therapeutic = () => {
   const sectionRef = useRef(null);

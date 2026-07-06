@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { FiMapPin, FiTruck, FiGlobe } from "react-icons/fi";
 import "../style/GlobalPresence.css";
-import globalImg from "../assets/localisation-image.png";
+import globalImg from "../assets/localisation-image.webp";
 
 const GlobalPresence = () => {
 
